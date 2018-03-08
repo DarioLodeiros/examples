@@ -3,17 +3,15 @@
     'name': 'Library',
     'version': '1.0.1.0.0',
     'summary': "Library Manager.",
-    'description': '',
-    'category': '',
+    'description': 'Bibrary book Manager',
     'author':
         'Dario',
-    'website': '',
     'license': 'AGPL-3',
     'depends': [
         'base'
     ],
-    'data': [
+    'qweb': [
+        'views/book.xml'
     ],
-    'qweb': [],
     'installable': True,
 }
